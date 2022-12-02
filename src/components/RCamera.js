@@ -237,17 +237,6 @@ export const RCamera = (props) => {
             >
               <CameraIcon />
             </div>
-            <div
-              className={
-                style['RCamera-button-icon'] +
-                ' ' +
-                (isTorch ? style['RCamera-torch-enable'] : '')
-              }
-              style={{ width: '52px', height: '52px' }}
-              onClick={startTorch}
-            >
-              <TorchIcon />
-            </div>
           </div>
         )}
       </div>
