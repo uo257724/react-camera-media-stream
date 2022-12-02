@@ -214,16 +214,6 @@ export const RCamera = (props) => {
             <button onClick={handleTakePicture}>
               {props.textPicture ? props.textPicture : 'Take picture'}
             </button>
-            {props.isTorch ? (
-              <button
-                className={isTorch ? style['RCamera-torch-enable'] : ''}
-                onClick={startTorch}
-              >
-                {props.textTorch ? props.textTorch : 'Enable torch'}
-              </button>
-            ) : (
-              ''
-            )}
           </div>
         ) : (
           <div
